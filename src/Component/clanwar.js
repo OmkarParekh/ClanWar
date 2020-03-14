@@ -20,7 +20,7 @@ export default class clanwar extends Component {
         }
     }
     async componentDidMount(){
-        const res = await Axios.get('http://royal-stats.herokuapp.com/clan/8C0VQGQQ/war')
+        const res = await Axios.get('https://royal-stats.herokuapp.com/clan/8C0VQGQQ/war')
         const data = res.data;
         const setData = this.setState({
             data:data,
