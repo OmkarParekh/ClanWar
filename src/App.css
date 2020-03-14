@@ -1,0 +1,31 @@
+.btn {
+  background-color: lightgray;
+  border-radius: 0;
+}
+@media (max-width: 574px) {
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5 {
+    width: 50px;
+  }
+  .clan__name,
+  .clan__score {
+    font-size: 0.7rem;
+  }
+  .clan__tag,
+  .clan__points {
+    font-size: 0.5rem;
+  }
+  .btn {
+    font-size: 0.6rem;
+  }
+}
+#con{
+ 
+  color: black;
+  width: 44%;
+  height: 200%;
+ margin-top:25%;
+}
