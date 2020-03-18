@@ -8,7 +8,10 @@
   .img3,
   .img4,
   .img5 {
-    width: 50px;
+    width: 40px;
+  }
+  .ml-5 {
+    margin-left: 0.8em !important;
   }
   .clan__name,
   .clan__score {
